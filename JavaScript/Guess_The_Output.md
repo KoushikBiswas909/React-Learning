@@ -16,7 +16,7 @@ console.log('Hello')
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
 Koushik
-
+</details>
 <br>
 ### Question 2
 
@@ -27,5 +27,5 @@ console.log('Hello')
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
 Koushik
-</details> </details>
+</details>
 
