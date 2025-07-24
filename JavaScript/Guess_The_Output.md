@@ -1,10 +1,10 @@
-# 🧠 Python Basics – Quiz
+# 🧠 Guess the output of given code snippet – JavaScript
 
-Test your Python knowledge! Click "Show Answer & Explanation" to reveal the solution.
+Test your Javascript knowledge! Click "Show Answer & Explanation" to reveal the solution.
 
 ---
 
-### ❓ Question 1
+### Question 1
 
 How do you print `Hello, World!` in Python?
 
