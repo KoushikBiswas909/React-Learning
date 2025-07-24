@@ -9,13 +9,15 @@ Test your JavaScript knowledge! Click "Show Answer & Explanation" to reveal the 
 
 ### Question 1
 
-How do you print `Hello, World!` in Python?
+What will be the output of the given code snippet ?
 
 ```javascript
-console.log('Hello')
+console.log(1+1)
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
-Koushik
+  2
+
+  Explanation: Both data type is number. So, addition of two numbers is number.
 </details>
 
 ### Question 2
