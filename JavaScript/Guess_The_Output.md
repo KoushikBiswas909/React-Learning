@@ -11,5 +11,7 @@ How do you print `Hello, World!` in Python?
 ```javascript
 console.log('Hello')
 ```
-<details> <summary>📘 Show Answer & Explanation</summary> <br>
+<details> <summary>📘 Show Answer & Explanation</summary>
+  Koushik
+<br>
 
