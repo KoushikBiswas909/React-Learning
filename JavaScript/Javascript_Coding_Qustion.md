@@ -1,5 +1,7 @@
 # JavaScript Interview Coding Questions & Answers
 
+### Table of Contents
+
 <!-- TOC_START -->
 | No. | Questions |
 | --- | --------- |
