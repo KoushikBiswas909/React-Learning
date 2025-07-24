@@ -13,7 +13,8 @@ How do you print `Hello, World!` in Python?
 
 ```javascript
 console.log('Hello')
+```
 <details> <summary>✍ Show Answer & Explanation</summary>
 Koushik
 
-</details> </details> ```
+</details> </details>
