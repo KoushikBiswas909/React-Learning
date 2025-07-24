@@ -7,7 +7,7 @@ Test your JavaScript knowledge! Click "Show Answer & Explanation" to reveal the 
 <details>
 <summary><strong>✅ Topic 1 – Type Conversion & Implicit Type Coercion</strong></summary>
 
-### Question 1
+## Question 1
 
 How do you print `Hello, World!` in Python?
 
@@ -16,5 +16,6 @@ console.log('Hello')
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
   Koushik
+</details> </details>
 <br>
 
