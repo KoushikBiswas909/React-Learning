@@ -5,7 +5,7 @@ Test your JavaScript knowledge! Click "Show Answer & Explanation" to reveal the 
 ---
 
 <details>
-<summary><strong>## 🧪 Topic 1 – Type Conversion & Implicit Type Coercion</strong></summary>
+<summary><strong>☑ Topic 1 – Type Conversion & Implicit Type Coercion</strong></summary>
 
 ### Question 1
 
