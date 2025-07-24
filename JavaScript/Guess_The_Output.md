@@ -16,8 +16,7 @@ console.log(1+1)
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
   2
-  <br>
-  Explanation: Both data type is number. So, addition of two numbers is number.
+  # Explanation: Both data type is number. So, addition of two numbers is number.
 </details>
 
 ### Question 2
