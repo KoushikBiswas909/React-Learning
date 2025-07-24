@@ -17,9 +17,8 @@ console.log('Hello')
 <details> <summary>✍ Show Answer & Explanation</summary>
 Koushik
 
-</details> </details>
 <br>
-### Question 1
+### Question 2
 
 How do you print `Hello, World!` in Python?
 
@@ -28,5 +27,5 @@ console.log('Hello')
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
 Koushik
-
 </details> </details>
+
