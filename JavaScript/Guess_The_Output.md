@@ -369,8 +369,8 @@ console.log(obj == obj2)
           true
   
   Explanation: 
-  1. Firstly, obj and obj1 are declaration wise same but present in different location in memory, so both is not equal.
-  2. Secondly, in obj2, the reference of obj is passed. So, in obj2, actually pointing to a reference of obj.
+  1. Firstly, `obj` and `obj1` are declaration wise same but present in different location in memory, so both is not equal.
+  2. Secondly, in `obj2`, the reference of `obj` is passed. So, in `obj2`, actually pointing to a reference of `obj`.
      So, it is equal.
 </details>
 
