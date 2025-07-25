@@ -176,17 +176,202 @@ console.log( [ 1, 2 ] - [ 5, 6 ] )
   7. Result: Invalid numeric operation → `NaN` (Not a Number)
 </details>
 
-### Question 6
+### Question 10
 
 What will be the output of the given code snippet ?
 
 ```javascript
-
+console.log( 1 + + "1" );
 ```
 <details> <summary>✍ Show Answer & Explanation</summary>
-  Answer: 
+  Answer: 2
+  
+  Explanation: Whenever there is a `+` before a string, it tries to convert the string into number. 
+  So, 1 + 1 = 2 will be the output. Applies space between anywhere will not effect in result.
+</details>
+
+### Question 11
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log( "1" + + "2" );
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: 12
+  
+  Explanation: 
+  1. First `+ "2"` this will convert into number, because of `+` sign.
+  2. Next, previous one `"1"` is a string, and tried to perforn `+` operation.
+  3. So, `+ "2"` this will convert into number to string.
+  4. So that, it will string concatenation.
+</details>
+
+### Question 12
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log( -"1" + + "5" );
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: 4
+  
+  Explanation: `-` will convert string into number, but in negative. Like `- "1"` -> `-1`.
+  Also `+ "5"` will convert into -> `5`.
+  Now, expression become `-1 + 5`, which results = `4`.
+</details>
+
+### Question 13
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log(1 + - + + + - + - - "1" );
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: 2
   
   Explanation:
+  1. Start with the innermost part:
+     `"1"` is a string, but JavaScript will coerce it to a number with `+` or `-` unary operators.
+  2. Operators applied to `"1"`:
+     Let's simplify - + + + - + - - "1" from right to left:
+
+        `"1"` → `string`
+        
+        `- "1"` → `-1`
+        
+        `- -1` → `1`
+        
+        `+ 1` → `1`
+        
+        `- 1` → `-1`
+        
+        `+ -1` → `-1`
+        
+        `+ -1` → `-1`
+        
+        `- -1` → `1`
+        
+        So this whole part simplifies to: `1`
+   3. Now expression becomes `1+1` = `2`
+</details>
+
+### Question 14
+
+What will be the output of the given code snippet ?
+
+```javascript
+if(0){
+  console.log("React");
+}
+else{
+  console.log("Java");
+}
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: Java
+
+  Explanation: 0, -0, +0, NaN all are falsy values.
+</details>
+
+### Question 15
+
+What will be the output of the given code snippet ?
+
+```javascript
+if(3 - "A"){
+  console.log("React");
+}
+else{
+  console.log("Java");
+}
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: Java
+  
+  Explanation: Before string a `-` operator is present, so it will try to convert the string into number, which is not posible.
+  So, `3 - "A"` will be falsy value, so control will go into else block.
+</details>
+
+### Question 16
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log(false == 0);
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: true
+  
+  Explanation:
+  1. `==` is loose equality, so JavaScript does type coercion.
+  2. false is a boolean, 0 is a number.
+  3. JavaScript converts false to a number:
+     false → 0
+  4. Now it compares:
+     0 == 0 → true
+
+  Note: `Loose equality `(==)` allows different types to be coerced before comparison.`
+</details>
+
+### Question 17
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log(false === 0)
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: false
+  
+  Explanation:
+  1. `===` is strict equality so no type coercion.
+  2. `false` is a boolean, `0` is a number.
+  3. Different types → comparison fails immediately.
+  Note: `Strict equality checks both value and type.`
+</details>
+
+### Question 18
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log( false == NaN )
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: false
+  
+  Explanation: NaN is not equal to anything, `NaN == NaN` will result false.
+</details>
+
+### Question 19
+
+What will be the output of the given code snippet ?
+
+```javascript
+const obj = {
+  name: "Koushik"
+}
+
+const obj1 = {
+  name: "Koushik"
+}
+
+const obj2 = obj
+
+console.log(obj == obj1)
+console.log(obj == obj2)
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: false
+          true
+  
+  Explanation: 
+  1. Firstly, obj and obj1 are declaration wise same but present in different location in memory, so both is not equal.
+  2. Secondly, in obj2, the reference of obj is passed. So, in obj2, actually pointing to a reference of obj.
+     So, it is equal.
 </details>
 
 
