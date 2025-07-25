@@ -144,14 +144,49 @@ console.log( [ 1, 2 ] + [ 5, 6 ] )
   Answer: 1,25,6
   
   Explanation:
-  1. [1,2] and [5,6] are arrays – Each has multiple numbers.
-  2. Using + with arrays – JavaScript tries to convert both arrays to strings.
-  3. [1,2].toString() → "1,2"
-  4. [5,6].toString() → "5,6"
-  5. "1,2" + "5,6" → "1,25,6" (just string concatenation)
-  6. Final result: "1,25,6" (a string, not an array)
+  1. `[1,2]` and `[5,6]` are arrays – Each has multiple numbers.
+  2. Using `+` with arrays – JavaScript tries to convert both arrays to strings.
+  3. `[1,2].toString()` → `"1,2"`
+  4. `[5,6].toString()` → `"5,6"`
+  5. `"1,2" + "5,6"` → `"1,25,6"` (just string concatenation)
+  6. Final result: `"1,25,6"` (a string, not an array)
 
      For substraction `console.log( [ 1, 2 ] - [ 5, 6 ] )` will result `NaN` because both will convert to string.
+</details>
+
+### Question 9
+
+What will be the output of the given code snippet ?
+
+```javascript
+console.log( [ 1, 2 ] - [ 5, 6 ] )
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: `NaN` 
+  
+  Explanation:
+  1. Expression: `[1, 2] - [5, 6]`
+  2. Subtraction operator (-): JavaScript tries to convert both arrays to primitives (usually strings or numbers) before performing subtraction.
+  3. Array to primitive:
+     `[1, 2].toString()` → `'1,2'`
+     `[5, 6].toString()` → `'5,6'`
+  4. Subtraction attempt: `'1,2' - '5,6'`
+  5. String subtraction: JavaScript tries to convert both strings to numbers.
+  6. `'1,2'` and `'5,6'` are not valid numbers → conversion fails.
+  7. Result: Invalid numeric operation → `NaN` (Not a Number)
+</details>
+
+### Question 6
+
+What will be the output of the given code snippet ?
+
+```javascript
+
+```
+<details> <summary>✍ Show Answer & Explanation</summary>
+  Answer: 
+  
+  Explanation:
 </details>
 
 
