@@ -11,11 +11,11 @@
 
 1. ### Write a Program to reverse a string in JavaScript
 
-   # Method 1
+   ## Method 1
    ```javascript
    function reverseString(str) {
-    return str.split('').reverse().join('');
-    }
+       return str.split('').reverse().join('');
+   }
    console.log(reverseString("Kou sh ik"));
    ```
 
