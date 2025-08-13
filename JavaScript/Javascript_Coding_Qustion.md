@@ -20,7 +20,7 @@
    ```
    Output: `ki hs uoK`
 
-   ### Method 2 Using a `for` Loop (Iterative Method)
+   ### Method 2 [ Using a `for` Loop (Iterative Method) ]
    ```javascript
    function reverseString(str) {
        let reversed = '';
@@ -29,6 +29,19 @@
        }
        return reversed;
    }
+   ```
+   Output: `ki hs uoK`
+
+   ### Method 3 [ Using a for...of Loop ]
+   ```javascript
+   function reverseString(str) {
+       let reversed = '';
+       for (const char of str) {
+           reversed = char + reversed;
+       }
+       return reversed;
+   }
+   console.log(reverseString("Kou sh ik"));
    ```
    Output: `ki hs uoK`
 
