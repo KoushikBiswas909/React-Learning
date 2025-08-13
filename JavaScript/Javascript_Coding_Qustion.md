@@ -20,6 +20,18 @@
    ```
    Output: `ki hs uoK`
 
+   ### Method 2 Using a `for` Loop (Iterative Method)
+   ```javascript
+   function reverseString(str) {
+       let reversed = '';
+       for (let i = str.length - 1; i >= 0; i--) {
+           reversed += str[i];
+       }
+       return reversed;
+   }
+   ```
+   Output: `ki hs uoK`
+
 3. ### What is a prototype chain
 
     The prototype chain is a core concept
