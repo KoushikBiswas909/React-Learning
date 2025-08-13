@@ -18,6 +18,7 @@
    }
    console.log(reverseString("Kou sh ik"));
    ```
+   Output: `ki hs uoK`
 
 3. ### What is a prototype chain
 
