@@ -11,7 +11,7 @@
 
 1. ### Write a Program to reverse a string in JavaScript
 
-   ## Method 1
+   ### Method 1 [ Using Built-in Functions (split, reverse, join) ]
    ```javascript
    function reverseString(str) {
        return str.split('').reverse().join('');
