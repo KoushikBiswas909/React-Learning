@@ -5,14 +5,19 @@
 <!-- TOC_START -->
 | No. | Questions |
 | --- | --------- |
-| 1 | [What are the possible ways to create objects in JavaScript](#what-are-the-possible-ways-to-create-objects-in-javascript) |
+| 1 | [Write a Program to reverse a string in JavaScript](#Write-a-Program-to-reverse-a-string-in-JavaScript) |
 | 2 | [What is prototype chain](#what-is-a-prototype-chain) |
 <!-- TOC_END -->
 
-1. ### What are the possible ways to create objects in JavaScript
+1. ### Write a Program to reverse a string in JavaScript
 
-    There are many ways to create objects in javascript as mentioned below:
-   To create an object, use the `Object.create()` method.
+   # Method 1
+   ```javascript
+   function reverseString(str) {
+    return str.split('').reverse().join('');
+    }
+   console.log(reverseString("Kou sh ik"));
+   ```
 
 3. ### What is a prototype chain
 
