@@ -7,6 +7,7 @@
 | --- | --------- |
 | 1 | [Write a Program to reverse a string in JavaScript](#Write-a-Program-to-reverse-a-string-in-JavaScript) |
 | 2 | [Write a Program to check whether a string is a palindrome string](#Write-a-Program-to-check-whether-a-string-is-a-palindrome-string) |
+| 3 | [Find the largest number in an array in JavaScript](#Find-the-largest-number-in-an-array-in-JavaScript) |
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -47,7 +48,7 @@
 
 2. ### Write a Program to check whether a string is a palindrome string
 
-    The prototype chain is a core concept
+    A palindrome is a word that reads the same word from forward and backward. This ignores spaces and capitalization.
     ```javascript
        function isPalindrome (str){
            const revStr = str.split("").reverse().join("");
@@ -61,3 +62,19 @@
          
        console.log(isPalindrome("KOK"))
     ```
+
+3. ### Find the largest number in an array in JavaScript.
+
+   ### Method 1 [ Using for Loop) ]
+   ```javascript
+   function largetElement (arr) {
+        var larEle = 0;
+        for(a of arr){
+          if(a > larEle){
+            larEle = a;
+          }
+        }
+        return larEle;
+   }
+   console.log(largetElement([8,0,5,6,14,-1,10,11]));
+   ```
