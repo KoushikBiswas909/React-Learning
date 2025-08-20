@@ -6,7 +6,7 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [Write a Program to reverse a string in JavaScript](#Write-a-Program-to-reverse-a-string-in-JavaScript) |
-| 2 | Write a Program to check whether a string is a palindrome string](#Write-a-Program-to-check-whether-a-string-is-a-palindrome-string) |
+| 2 | [Write a Program to check whether a string is a palindrome string](#Write-a-Program-to-check-whether-a-string-is-a-palindrome-string) |
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
