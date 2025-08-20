@@ -6,7 +6,7 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [Write a Program to reverse a string in JavaScript](#Write-a-Program-to-reverse-a-string-in-JavaScript) |
-| 2 | [What is prototype chain](#what-is-a-prototype-chain) |
+| 2 | Write a Program to check whether a string is a palindrome string](#Write-a-Program-to-check-whether-a-string-is-a-palindrome-string) |
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -45,12 +45,19 @@
    ```
    Output: `ki hs uoK`
 
-3. ### What is a prototype chain
+2. ### Write a Program to check whether a string is a palindrome string
 
     The prototype chain is a core concept
     ```javascript
-       var object = {
-         name: "Sudheer",
-         age: 34,
-       };
+       function isPalindrome (str){
+           const revStr = str.split("").reverse().join("");
+           if(revStr == str){
+             return true;
+           }
+           else{
+             return false;
+           }
+         }
+         
+       console.log(isPalindrome("KOK"))
     ```
