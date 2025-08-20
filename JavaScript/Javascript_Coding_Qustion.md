@@ -65,7 +65,8 @@
 
 3. ### Find the largest number in an array in JavaScript.
 
-   ### Method 1 [ Using for Loop) ]
+   ### Method 1 [ Using for Loop ]
+   
    ```javascript
    function largetElement (arr) {
         var larEle = 0;
@@ -77,4 +78,21 @@
         return larEle;
    }
    console.log(largetElement([8,0,5,6,14,-1,10,11]));
+   ```
+   ### Method 2 [ Using Math.max() built in function ]
+
+   This is a JavaScript built-in method from the Math object.
+   It returns the largest of the zero or more numbers passed to it.
+   
+   ...arr is called the spread operator.
+   It spreads out the elements of the array into individual values.
+   This is necessary because Math.max() doesn't accept an array directly — it needs individual numbers.
+   
+   ```javascript
+   function findLargest(arr) {
+       // Math.max() is used to find the largest number
+       return Math.max(...arr); 
+   }
+
+   console.log(findLargest([99, 5, 3, 100, 1]));
    ```
