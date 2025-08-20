@@ -8,6 +8,7 @@
 | 1 | [Write a Program to reverse a string in JavaScript](#Write-a-Program-to-reverse-a-string-in-JavaScript) |
 | 2 | [Write a Program to check whether a string is a palindrome string](#Write-a-Program-to-check-whether-a-string-is-a-palindrome-string) |
 | 3 | [Find the largest number in an array in JavaScript](#Find-the-largest-number-in-an-array-in-JavaScript) |
+| 4 | [How Remove the first element from an array in JavaScript?](#How-Remove-the-first-element-from-an-array-in-JavaScript)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -96,3 +97,18 @@
 
    console.log(findLargest([99, 5, 3, 100, 1]));
    ```
+
+4. ### How Remove the first element from an array in JavaScript?
+
+   ### Method 1 [Using the `shift()` function. Here original array manipulated ]
+   
+   ```javascript
+   function removeFirstElement(arr){
+     var removedVal = arr.shift();
+     return arr;
+   }
+
+   console.log(removeFirstElement([1,2,3,4]))
+   ```
+
+   ### Method 2 [ ]
