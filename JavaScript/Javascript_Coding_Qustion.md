@@ -13,6 +13,7 @@
 | 6 | [Write a program to add new property to a existing object](#Write-a-program-to-add-new-property-to-a-existing-object)
 | 7 | [Write a Program to delete a property from an object](#Write-a-Program-to-delete-a-property-from-an-object)
 | 8 | [Write a program to add all the array elements and returns final number](#Write-a-program-to-add-all-the-array-elements-and-returns-final-number)
+| 9 | [Write a Program to check if a number is prime or not](#Write-a-Program-to-check-if-a-number-is-prime-or-not)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -189,4 +190,19 @@
    console.log(arr.reduce((a,b) => (a+b)));
    ```
    Output: `10`
+
+9. ### Write a Program to check if a number is prime or not
+    ```javascript
+    function isPrime(num) {
+       if (num <= 1) return false;
+       if (num === 2) return true;
+       if (num % 2 === 0) return false;
    
+       for (let i = 3; i <= Math.sqrt(num); i += 2) {
+           if (num % i === 0) return false;
+       }
+       return true;
+    }
+    console.log(isPrime(7));
+    ```
+    Output: `true`
