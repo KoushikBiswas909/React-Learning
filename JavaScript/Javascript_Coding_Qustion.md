@@ -100,7 +100,7 @@
 
 4. ### How Remove the first element from an array in JavaScript?
 
-   ### Method 1 [Using the `shift()` function. Here original array manipulated ]
+   ### Method 1 [ Using the `shift()` function. Here original array manipulated and removed item also returned by shift() ]
    
    ```javascript
    function removeFirstElement(arr){
