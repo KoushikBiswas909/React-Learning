@@ -10,7 +10,7 @@
 | 3 | [Find the largest number in an array in JavaScript](#Find-the-largest-number-in-an-array-in-JavaScript) |
 | 4 | [How Remove the first element from an array in JavaScript?](#How-Remove-the-first-element-from-an-array-in-JavaScript)
 | 5 | [Write a program of calculator with feature + - * / with the help of callback functions](#Write-a-program-of-calculator-with-feature-+---*-/-with-the-help-of-callback-functions)
-| 6 | [Write a program to add new property to a existing object](Write-a-program-to-add-new-property-to-a-existing-object)
+| 6 | [Write a program to add new property to a existing object](#Write-a-program-to-add-new-property-to-a-existing-object)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
