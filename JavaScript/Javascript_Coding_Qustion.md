@@ -183,3 +183,10 @@
    `{ name: 'Koushik' }`
 
 8. ### Write a program to add all the array elements and returns final number
+   Here, reduce() method take two parameters and performs operation, and returns final result.
+   ```javascript
+   const arr = [1,2,3,4];
+   console.log(arr.reduce((a,b) => (a+b)));
+   ```
+   Output: `10`
+   
