@@ -152,8 +152,7 @@
    calculator(10,5, devide);
    ```
    Output:
-   `The result is 3 and operation performed add
-   The result is 3 and operation performed substract
-   The result is 36 and operation performed multiply
-   The result is 2 and operation performed devide
-`
+   `The result is 3 and operation performed add`
+   `The result is 3 and operation performed substract`
+   `The result is 36 and operation performed multiply`
+   `The result is 2 and operation performed devide`
