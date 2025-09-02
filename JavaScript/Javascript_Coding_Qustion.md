@@ -9,6 +9,7 @@
 | 2 | [Write a Program to check whether a string is a palindrome string](#Write-a-Program-to-check-whether-a-string-is-a-palindrome-string) |
 | 3 | [Find the largest number in an array in JavaScript](#Find-the-largest-number-in-an-array-in-JavaScript) |
 | 4 | [How Remove the first element from an array in JavaScript?](#How-Remove-the-first-element-from-an-array-in-JavaScript)
+| 5 | [Write a program of calculator with feature + - * / with the help of callback functions](#Write-a-program-of-calculator-with-feature-+---*-/-with-the-help-of-callback-functions)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -123,3 +124,30 @@
    Output: `
    [ 7,  5, 12, 45, 1, 63, 25 ]
    [ 12, 45, 1, 63, 25 ] `
+
+
+5. ### Write a program of calculator with feature + - * / with the help of callback functions
+   ```javascript   
+   function add (a,b){
+     return a+b;
+   }
+   function substract (a,b){
+     return a-b;
+   }
+   function multiply (a,b){
+     return a*b;
+   }
+   function devide (a,b){
+     return a/b;
+   }
+   
+   function calculator (a, b, callback) {
+     const result = callback(a,b);
+     console.log(`The result is ${result} and operation performed ${callback.name}`);
+   }
+   
+   calculator(1,2, add);
+   calculator(5,2, substract);
+   calculator(6,6, multiply);
+   calculator(10,5, devide);
+   ```
