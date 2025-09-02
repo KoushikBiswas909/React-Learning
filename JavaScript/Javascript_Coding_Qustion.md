@@ -12,6 +12,7 @@
 | 5 | [Write a program of calculator with feature + - * / with the help of callback functions](#Write-a-program-of-calculator-with-feature-+---*-/-with-the-help-of-callback-functions)
 | 6 | [Write a program to add new property to a existing object](#Write-a-program-to-add-new-property-to-a-existing-object)
 | 7 | [Write a Program to delete a property from an object](#Write-a-Program-to-delete-a-property-from-an-object)
+| 8 | [Write a program to add all the array elements and returns final number](#Write-a-program-to-add-all-the-array-elements-and-returns-final-number)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -180,3 +181,5 @@
    ```
    Output:
    `{ name: 'Koushik' }`
+
+8. ### Write a program to add all the array elements and returns final number
