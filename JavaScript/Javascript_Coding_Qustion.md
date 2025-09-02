@@ -156,3 +156,17 @@
    `The result is 3 and operation performed substract`
    `The result is 36 and operation performed multiply`
    `The result is 2 and operation performed devide`
+
+6. ### Write a program to add new property to a existing object
+   ```javascript
+   const person_obj = {
+     name : "Koushik"
+   }
+   console.log(person_obj);
+   person_obj.age = 25;
+   console.log(person_obj);
+   ```
+   Output: `
+   { name: 'Koushik' }
+   { name: 'Koushik', age: 25 }
+   `
