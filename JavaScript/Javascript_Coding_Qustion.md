@@ -111,4 +111,15 @@
    console.log(removeFirstElement([1,2,3,4]))
    ```
 
-   ### Method 2 [ ]
+   ### Method 2 [ Using the `slice()` function. Here one new copy array created, original array remains same ]
+
+   ```javascript
+   let original_array = [8,7,5,12,45,1,63,25];
+   let final_array = original_array.slice(1);
+   let final_array_three_removed = original_array.slice(3);
+   console.log(final_array);
+   console.log(final_array_three_removed)
+   ```
+   Output: `
+   [ 7,  5, 12, 45, 1, 63, 25 ]
+   [ 12, 45, 1, 63, 25 ] `
