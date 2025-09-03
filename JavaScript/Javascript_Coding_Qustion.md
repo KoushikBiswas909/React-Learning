@@ -14,7 +14,7 @@
 | 7 | [Write a Program to delete a property from an object](#Write-a-Program-to-delete-a-property-from-an-object)
 | 8 | [Write a program to add all the array elements and returns final number](#Write-a-program-to-add-all-the-array-elements-and-returns-final-number)
 | 9 | [Write a Program to check if a number is prime or not](#Write-a-Program-to-check-if-a-number-is-prime-or-not)
-| 10| [Write a Program to print Fibonacci sequence up to n terms](#Write-a-Program-to-print-Fibonacci-sequence-up-to-n-terms)
+| 10 | [Write a Program to print Fibonacci sequence up to n terms](#Write-a-Program-to-print-Fibonacci-sequence-up-to-n-terms)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
