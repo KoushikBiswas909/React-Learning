@@ -15,6 +15,8 @@
 | 8 | [Write a program to add all the array elements and returns final number](#Write-a-program-to-add-all-the-array-elements-and-returns-final-number)
 | 9 | [Write a Program to check if a number is prime or not](#Write-a-Program-to-check-if-a-number-is-prime-or-not)
 | 10 | [Write a Program to print Fibonacci sequence up to n terms](#Write-a-Program-to-print-Fibonacci-sequence-up-to-n-terms)
+| 11 | [Write a Program to find factorial of a number](#Write-a-Program-to-find-factorial-of-a-number)
+| 12 | [Calculate the Power of a Number in JavaScript](#Calculate-the-Power-of-a-Number-in-JavaScript)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -234,3 +236,27 @@
       3
       5
       8`
+
+11. ### Write a Program to find factorial of a number
+    ```javascript
+    function factorialFound(n){
+        let answer = 1;
+        for(let i=2;i<=n;i++){
+          answer *= i;
+        }
+        return answer;
+    }
+
+      console.log(factorialFound(7));
+    ```
+    Output:
+    `5040`
+
+12. ### Calculate the Power of a Number in JavaScript
+    ```javascript
+    function power(base, exponent) {
+        return base ** exponent;
+    }  
+    console.log(power(3, 4));
+    ```
+    Output: `81`
