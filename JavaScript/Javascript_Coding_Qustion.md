@@ -14,6 +14,7 @@
 | 7 | [Write a Program to delete a property from an object](#Write-a-Program-to-delete-a-property-from-an-object)
 | 8 | [Write a program to add all the array elements and returns final number](#Write-a-program-to-add-all-the-array-elements-and-returns-final-number)
 | 9 | [Write a Program to check if a number is prime or not](#Write-a-Program-to-check-if-a-number-is-prime-or-not)
+| 10| [Write a Program to print Fibonacci sequence up to n terms](#Write-a-Program-to-print-Fibonacci-sequence-up-to-n-terms)
 <!-- TOC_END -->
 
 1. ### Write a Program to reverse a string in JavaScript
@@ -206,3 +207,30 @@
     console.log(isPrime(7));
     ```
     Output: `true`
+
+10. Write a Program to print Fibonacci sequence up to n terms
+    ```javascript
+       function fibonacci(n) {
+          let num1 = 0, num2 = 1, nextNum;
+      
+          console.log("Fibonacci Sequence:");
+      
+          for (let i = 1; i <= n; i++) {
+              console.log(num1);
+              nextNum = num1 + num2;
+              num1 = num2;
+              num2 = nextNum;
+          }
+       }
+
+       fibonacci(7);
+    ```
+    Output:
+    `Fibonacci Sequence:
+      0
+      1
+      1
+      2
+      3
+      5
+      8`
