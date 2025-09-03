@@ -208,7 +208,7 @@
     ```
     Output: `true`
 
-10. Write a Program to print Fibonacci sequence up to n terms
+10. ### Write a Program to print Fibonacci sequence up to n terms
     ```javascript
        function fibonacci(n) {
           let num1 = 0, num2 = 1, nextNum;
